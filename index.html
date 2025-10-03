@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cafeteria Tradicional — Home</title>
+  <meta name="description" content="Cafeteria Tradicional — sabores locais e ambiente acolhedor. Faça sua visita!">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Ícones (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="/assets/img/logo.png" alt="Logo" width="48" height="48">
+        <span class="brand-text">Cafeteria Tradicional</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <img src="/assets/img/caneca e livro.png" alt="Caneca de café ao lado de um livro sobre a mesa" class="hero-img">
+      <div class="hero-content container">
+        <h1 id="hero-title">Sabores que aquecem o dia</h1>
+        <p class="lead">Cafeteria Tradicional: cafés especiais, pães artesanais e um cantinho para você relaxar.</p>
+        <a class="btn" href="#destaques">Conheça nossos destaques</a>
+      </div>
+    </section>
+
+    <!-- Destaques em cards (flex) -->
+    <section id="destaques" class="destaques container" aria-labelledby="destaques-title">
+      <h2 id="destaques-title">Destaques</h2>
+      <div class="cards">
+        <article class="card" aria-labelledby="card1-title">
+          <img src="/assets/img/cafe da manha.png" alt="café da manhã" class="card-img">
+          <h3 id="card1-title">Café da Manhã</h3>
+          <p>Combo com café coado e pão artesanal, perfeito para começar o dia.</p>
+        </article>
+
+        <article class="card" aria-labelledby="card2-title">
+          <img src="/assets/img/capuccino.png" alt="Bailarino cappucino" class="card-img">
+          <h3 id="card2-title">Cappuccino Especial</h3>
+          <p>Receita única com canela e chocolate belga.</p>
+        </article>
+
+        <article class="card" aria-labelledby="card3-title">
+          <img src="/assets/img/bolo de vó.png" alt="bolo de vó" class="card-img">
+          <h3 id="card3-title">Bolos da Casa</h3>
+          <p>Sabores variados: cenoura, chocolate e laranja com especiarias.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Chamada para ação / seção adicional -->
+    <section class="cta container" aria-labelledby="cta-title">
+      <h2 id="cta-title">Quer um atendimento especial?</h2>
+      <p>Entre em contato e agende uma degustação para grupos.</p>
+      <a class="btn outline" href="contato.html">Fale conosco</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Cafeteria Tradicional</p>
+    </div>
+  </footer>
+</body>
+</html>
